@@ -18,14 +18,35 @@ Two file are submitted for this project: a file containing project :
 
 - **[code](./P1.ipynb)**
 
-  The code is contained in a jupyter notebook and written  in python 3.0. The jupyter notebook was developed using Anaconda version 1.6.12. To run the code the following packages must be installed :
-    1. OpenCV 3.4
-    2. ffmpeg 3.4
-    3. Moviepy
+  The code is contained in a jupyter notebook and written  in python 3.6. The jupyter notebook was developed using Anaconda version 1.6.12. To run the code the following packages must be installed :
+
+    1. [OpenCV](https://opencv.org/)
+    2. [ffmpeg](https://www.ffmpeg.org/)
+    3. [Moviepy](https://zulko.github.io/moviepy/)
+    4. [Numpy](http://www.numpy.org/)
+    5. [matplotlib](https://matplotlib.org/)
+
+  It's highly recommended to use [Anaconda](https://www.anaconda.com/download/#macos) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 3.x installer and not the Python 2.7 installer.
+
 
 - **[writeup](./writeup.md)**
 
    This file contains a brief write up explaining the solution. This is a markdown file that can be visualized using any markdown viewer/reader (E.g github markdown). The markdown can also be converted into HTML or PDF for better portability and more viewing options.
+
+# Run 
+
+In a terminal or command window, navigate to the top-level project directory boston_housing/ (that contains this README) and run one of the following commands:
+
+
+```bash
+ipython notebook P1.ipynb
+```
+or
+```bash
+jupyter notebook P1.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
 
 # Dependencies
   The code and the writeup depend on the content of the following folders :
@@ -34,6 +55,6 @@ Two file are submitted for this project: a file containing project :
   2. test_videos : contain sample videos used for testing
   3. results : Aggregate intermediate and final results of images and videos processing.
   4. test_videos_out : contain final result of processed video
-  5. test_images_out : contain final result of processed images 
+  5. test_images_out : contain final result of processed images
 
 # Selft-Driving-Car-Udacity
